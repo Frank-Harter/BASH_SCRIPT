@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "IMPRIME EN DIFERENTES LINEAS: "
+echo $1
+echo $2
+echo $3
+echo $4
+echo $5
+
+
+echo 'Imrpime en una linea: $@ los parametros' $@
+echo 'Imrpime en una linea: $* los parametros' $*
+#La diferencia basicamente es como se interpretan los espacios
+
+echo "Hay en total:" $# "parametros"
+echo "NOMBRE DEL SCRIPT: " $0
