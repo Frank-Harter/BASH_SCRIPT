@@ -1,0 +1,20 @@
+#!/bin/bash
+
+CRACK=oriolorioloriol
+echo CRCKMAQUINAFIERAJEFE=$CRACK
+# Identifica què fa el paràmetre ##*
+echo 'El resultat de ##*ori és' ${CRACK##*ori}
+##*  Elimina la parte mas LARGA desde el PRINCIPIO a partir de “ori”
+
+# Identifica què fa el paràmetre #*
+echo 'El resultat of #*ori és' ${CRACK#*ori}
+#*  Elimina la parte más corta desde el FINAL a partir de “ori”
+
+# Identifica què fa el paràmetre %% i/amb el * final
+echo 'El resultat of %%ol* és' ${CRACK%%ol*}
+%%ol*  Elimina la parte mas LARGA desde el FINAL a partir de “ol”
+
+# Proposta de canvi del vostre company i veí Joel
+# Identifica què fa el paràmetre % i/amb el * final
+echo 'El resultat of %ori* és' ${CRACK%ori*}
+%%ol*  Elimina la parte mas LARGA desde el FINAL a partir de “ol”
