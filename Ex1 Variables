@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Path: "$PATH
+echo "Home: "$HOME
+echo "USER: "$USER
+echo "PWD: "$PWD
+echo "SHELL: "$SHELL
+
+
+
+echo "Argumentos shell: "$@
+
+
+echo "Ultimo comando: "$?
+
+
+echo "Id shell actual: "$$
