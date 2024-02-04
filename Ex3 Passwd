@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+read -s -p "Pon contraseña: " password
+#EL -s es para que no salga el texto  del input
+echo $password
